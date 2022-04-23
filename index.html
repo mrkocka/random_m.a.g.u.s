@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    
+    <title>Véletlenszerű bestia-előfordulások</title>
+</head>
+<body>
+    <header>
+        <section id="MonsterContainer">
+            <img src="./img/magus_logo.png" alt="magus logo">
+            <h1>Véletlenszerű találkozások</h1>
+            <h2 id="js-bestName" class="bestName"></h2>
+            <div id="js-monsterStat" class=" monsterStat">
+                <ul id="ulList">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="js-pageNumber" class="pageNumber"></div>
+        </section>
+    </header>
+    
+    <main>
+        <form id="MonsterCalc" action="">
+            <label for="location">Választ vidéket/helyet <br> </label>
+                 <select name="location" id="location">
+                     <option value="mersekeltovierdo">Mérsékelt övi erdő</option>
+                     <option value="dzsungel">Dzsungel</option>
+                     <option value="mocsar">Mocsár</option>
+                     <option value="pusztasagsztyeppe">Pusztaság,sztyeppe</option>
+                 </select>
+        </form>
+    </main>
+
+    <footer>
+        <button id="js-button" >Lássuk</button>
+    </footer>
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
