@@ -54,7 +54,8 @@ header{
     font-size: 2rem;
     background-color: rgba(128, 128, 128, 0.322);
     height: 3rem;
-    width: 80%;
+    width: 100%;
+    max-width: 20rem;
     margin: 2rem auto 2rem auto;
     padding: .5rem;
     border-radius: 15px;
